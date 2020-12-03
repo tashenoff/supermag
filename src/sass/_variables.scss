@@ -1,0 +1,37 @@
+$black: #231f20;
+$orange: #FFB500;
+$red: #FF4343;
+
+
+$hamburger-padding-x: 8px;
+$hamburger-padding-y           : 8px;
+$hamburger-layer-width         : 24px;
+$hamburger-layer-height        : 3px;
+$hamburger-layer-spacing       : 5px;
+$hamburger-layer-color         : #fff;
+$hamburger-layer-border-radius : 4px;
+$hamburger-hover-opacity       : 0.7;
+$hamburger-active-layer-color  : $hamburger-layer-color;
+$hamburger-active-hover-opacity: $hamburger-hover-opacity;
+
+button:focus{
+    outline: none;
+}
+
+$grid-gutter-width:           20px;
+
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1180px
+);
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap');
+
+
+body{
+  font-family: 'Montserrat', sans-serif;
+}

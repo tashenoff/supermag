@@ -1,0 +1,14 @@
+<div class="container">
+    <div class="product-home__list">
+
+        <each loop='item in {{ items }}'>
+            <div class="product-home__item product-home__item--five">
+             
+                    <include locals='{"productData": {{ item }}}' src="src/templates/components/ProductSingle.html">
+                    </include>
+            
+            </div>
+        </each>
+
+    </divl>
+</div>

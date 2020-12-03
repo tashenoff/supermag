@@ -1,0 +1,10 @@
+.btn {
+    padding: 9px 60px;
+    text-align: center;
+    max-width: 280px;
+    border-radius: 5px;
+
+ &__primary{
+    background-color: $red;
+ } 
+}

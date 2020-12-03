@@ -1,0 +1,16 @@
+<div class="container">
+    <ul class="product-home__list">
+        <div id="owl-three" class="owl-carousel owl-theme">
+        <each loop='item in {{ items }}'>
+           
+            <li class="product-home__item item">
+               
+                    <include locals='{"productData": {{ item }}}' src="src/templates/components/ProductSingle.html">
+                    </include>
+              
+            </li>
+
+        </each>
+        </div>
+    </ul>
+</div>

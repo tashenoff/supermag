@@ -1,0 +1,69 @@
+.banner-home {
+    // .banner-home__wrapp
+
+    &__wrapp {
+        display: flex;
+    }
+
+    // .banner-home__item
+
+    &__item {
+        padding: $grid-gutter-width / 2;
+        img {
+            width: 100%;
+        }
+    }
+
+    // .banner-home__center-wrapp
+
+    &__center-wrapp {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+}
+
+.banner-small {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-between;
+
+    &__item {
+        position: relative;
+    }
+    &__sale {
+        position: absolute;
+        width: 74px;
+        height: 74px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: $red;
+        top: 16px;
+        left: 16px;
+        border-radius: 50%;
+        color: #fff;
+        font-size: 28px;
+        font-weight: bold;
+    }
+
+    &__img {
+        width: 100%;
+        display: block;
+        padding-top: 76%;
+        background-position: center;
+        background-size: contain;
+        background-size: 100% 100%;
+        transition: background-size 0.3s ease-in;
+
+        &:hover {
+            background-size: 105% 105%;
+        }
+    }
+
+    a {
+        width: 100%;
+        display: block;
+    }
+}

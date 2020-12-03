@@ -1,0 +1,67 @@
+.navbar {
+    background-color: $orange;
+    line-height: 2;
+    padding: 0!important;
+
+    &__dropdown {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 100%;
+        background-color:#fff;
+        z-index: 888;
+        width: 243px;
+        list-style: none;
+        color: #666;
+     
+
+        li {
+            font-size: 16px;
+            text-transform: initial;
+            border-bottom: 1px solid red;
+            
+
+        }
+    }
+
+    &__catalog {
+        background-color: $red;
+        min-width: 243px;
+        font-size: 24px;
+        text-transform: uppercase;
+        color: #fff;
+
+        display: flex;
+        align-items: center;
+
+        ul {
+            display: none;
+        }
+
+        button {
+            width: 60px;
+            height: 60px;
+        }
+    }
+
+    &__second {
+        display: flex;
+        list-style: none;
+        height: 100%;
+        padding: 0;
+        margin: 0;
+
+        li {
+            padding: 0 24px;
+            a {
+                color: #fff;
+            }
+        }
+    }
+
+    &__wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+}
